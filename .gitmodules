@@ -1,0 +1,6 @@
+[submodule "UltimateMangaReader"]
+	path = UltimateMangaReader
+	url = https://github.com/Rain92/UltimateMangaReader
+[submodule "qt5-kobo-platform-plugin"]
+	path = qt5-kobo-platform-plugin
+	url = https://github.com/Rain92/qt5-kobo-platform-plugin

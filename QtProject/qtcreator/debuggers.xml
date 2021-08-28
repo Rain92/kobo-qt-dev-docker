@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorDebuggers>
+<!-- Written by QtCreator 4.15.2, 2021-08-27T17:54:30. -->
+<qtcreator>
+ <data>
+  <variable>DebuggerItem.0</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/bin/gdb</value>
+   <value type="QString" key="DisplayName">System GDB at /usr/bin/gdb</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{d074f08f-68d5-41ce-aa6b-258feb0d10fe}</value>
+   <value type="QDateTime" key="LastModified">2021-05-19T21:22:34.000</value>
+   <value type="QString" key="Version">10.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.1</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/sbin/gdb</value>
+   <value type="QString" key="DisplayName">System GDB at /usr/sbin/gdb</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{e7458b6d-4f76-44e6-bdb3-dd885d116f49}</value>
+   <value type="QDateTime" key="LastModified">2021-05-19T21:22:34.000</value>
+   <value type="QString" key="Version">10.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.2</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/sbin/gdb</value>
+   <value type="QString" key="DisplayName">System GDB at /sbin/gdb</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{6bce2936-7a59-4eb5-802f-2cf3391d13e8}</value>
+   <value type="QDateTime" key="LastModified">2021-05-19T21:22:34.000</value>
+   <value type="QString" key="Version">10.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.3</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">false</value>
+   <value type="QString" key="Binary">/bin/gdb</value>
+   <value type="QString" key="DisplayName">GDB</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{6b0ad581-30b7-492b-a734-a52fdbc846be}</value>
+   <value type="QDateTime" key="LastModified">2021-05-19T21:22:34.000</value>
+   <value type="QString" key="Version">10.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.4</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">arm-linux-generic-elf-32bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">false</value>
+   <value type="QString" key="Binary">/home/user/x-tools/arm-kobo-linux-gnueabihf/bin/arm-kobo-linux-gnueabihf-gdb</value>
+   <value type="QString" key="DisplayName">GDB kobo</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{31ed5d0d-cbfc-43cf-bcde-e75b3a899626}</value>
+   <value type="QDateTime" key="LastModified"></value>
+   <value type="QString" key="Version">8.3.1</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.Count</variable>
+  <value type="int">5</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>
