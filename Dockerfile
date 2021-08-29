@@ -2,8 +2,8 @@ FROM archlinux:base-devel
 
 LABEL org.opencontainers.image.authors="balduran174@gmail.com"
 
-RUN pacman --noconfirm -Syu gperf help2man bison texinfo flex gawk git unzip
-RUN pacman --noconfirm -S cmake python3 wget tar gdb qtcreator
+RUN pacman --noconfirm -Syu gperf help2man bison texinfo flex gawk git unzip \
+                            cmake python3 wget tar gdb qtcreator
 
 RUN useradd --create-home user
 ENV HOME /home/user
