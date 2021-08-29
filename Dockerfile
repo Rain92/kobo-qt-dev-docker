@@ -20,7 +20,7 @@ RUN su user -c ./install_toolchain.sh
 ENV PATH="/home/${USER}/x-tools/arm-kobo-linux-gnueabihf/bin:${PATH}"
 
 RUN su user -c ./install_libs.sh
-RUN su user -c ./install_gbd.sh
+RUN su user -c ./install_gdb.sh
 
 RUN su user -c "./get_qt.sh kobo"
 RUN su user -c "./get_qt.sh desktop"
