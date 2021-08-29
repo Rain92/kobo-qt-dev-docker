@@ -6,7 +6,8 @@ The docker image will contain the kobo platform plugin, UMR and a simple scribbl
 Qt creator is preconfigured to be able to build both for linux desktop and kobo targets.
 
 ## Docker Image
-The docker image is hosted on https://hub.docker.com/r/rain92/kobo-qt-dev and can be pulled via:
+The docker image is hosted on https://hub.docker.com/r/rain92/kobo-qt-dev and can be pulled via: 
+
 docker pull rain92/kobo-qt-dev
 
 Usage:
