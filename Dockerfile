@@ -10,9 +10,7 @@ ENV HOME /home/user
 ENV USER user
 ENV TERM xterm
 
-WORKDIR /home/user
-
-RUN su user -c "git clone --recurse-submodules https://github.com/Rain92/kobo-qt-setup-scripts"
+ADD kobo-qt-setup-scripts /home/user/kobo-qt-setup-scripts
 
 WORKDIR /home/user/kobo-qt-setup-scripts
 
