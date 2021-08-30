@@ -3,14 +3,14 @@ FROM archlinux:base-devel
 LABEL org.opencontainers.image.authors="balduran174@gmail.com"
 
 RUN pacman --noconfirm -Syu gperf help2man bison texinfo flex gawk git unzip \
-                            cmake python3 wget tar gdb qtcreator
+    cmake python3 wget tar gdb qtcreator
 
 RUN useradd --create-home user
 ENV HOME /home/user
 ENV USER user
 ENV TERM xterm
 
-ADD kobo-qt-setup-scripts /home/user/kobo-qt-setup-scripts
+ADD --chown=user kobo-qt-setup-scripts /home/user/kobo-qt-setup-scripts
 
 WORKDIR /home/user/kobo-qt-setup-scripts
 
