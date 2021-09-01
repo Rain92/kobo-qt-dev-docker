@@ -11,7 +11,8 @@ The docker image is hosted on https://hub.docker.com/r/rain92/kobo-qt-dev and ca
 docker pull rain92/kobo-qt-dev
 
 Usage:
-docker run [-v SOURCE:TARGET] kobo-qt-dev [$DISPLAY]
+docker run -it -v /tmp:/tmp kobo-qt-dev [qtcreator [$DISPLAY]]
 
-The -v flag will mount a shared folder on the docker image
+The -v flag will mount a shared folder on the docker image, "-v /tmp:/tmp" is necessary to run in GUI mode
+The qtcreator flag will run Qt Creator otherwise it will just launch a bash shell.
 The display flag will set the output display and defaults to ":0"
