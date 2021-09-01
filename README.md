@@ -1,7 +1,7 @@
 # kobo-qt-dev-docker
 
 A complete development environment for cross compiling Qt apps for Kobo Arm targets, see https://github.com/Rain92/kobo-qt-setup-scripts.
-Running the docker file will launch a Qt Creator instance.
+Running the docker file can launch a Bash shell or Qt Creator instance.
 The docker image will contain the kobo platform plugin, UMR and a simple scribble sample app. 
 Qt creator is preconfigured to be able to build both for linux desktop and kobo targets.
 
